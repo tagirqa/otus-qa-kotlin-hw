@@ -1,3 +1,10 @@
 fun main() {
-    println("Hello World!")
+    TestRunnerImpl().runTest(Steps()) {
+        test()
+    }
+}
+
+
+fun test() {
+    println("test init")
 }
